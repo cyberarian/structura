@@ -60,13 +60,13 @@ def show_landing_page():
             cursor: pointer !important;
             transition: all 0.3s ease !important;
             margin-top: 0.3rem !important;
-            display: block !important;
-            margin-left: auto !important;
-            margin-right: auto !important;
+            display: block !important; /* Make button a block element */
+            width: auto !important; /* Let the button size to its content */
+            margin: 0 auto !important; /* Center the block-level button within its container */
         }}
         
         .stButton > button:hover {{
-            background-color: #FF3333 !important;
+            background-color: #E03030 !important; /* Darker red on hover */
             transform: translateY(-2px) !important;
             box-shadow: 0 5px 15px rgba(255, 75, 75, 0.3) !important;
         }}
@@ -83,40 +83,45 @@ def show_landing_page():
             }}
         }}
 
-        .button-container {{
+        /* This class is no longer needed for centering but kept for compatibility */
+        /* .button-container {{
             text-align: center;
             padding-top: 1rem;
-        }}
+        }} */
+
+        /* Target the column containing the button to center its content */
+        div[data-testid="stHorizontalBlock"] div[data-testid="stVerticalBlock"] div[data-testid="stButton"] {{ text-align: center; }}
         </style>
 
         <div class="landing-content">
-            <h2>Structura: RAG-Powered App for Construction Engineering Document</h2>
+            <h1>Structura: RAG-Powered App for Construction Engineering Document</h1>
+            <h2>
+            Intelligent Document Processing & Q&A for Engineering
+            </h2>
             <p>
-            Selamat Datang di Era Baru Manajemen Dokumen Teknik
+            Structura mengubah dokumen teknis statis—seperti gambar P&ID, kontrak, dan laporan—menjadi aset informasi yang interaktif dan terkelola. Kurangi waktu pencarian manual dan tingkatkan akurasi data proyek Anda dengan kekuatan AI.
             </p>
             <p>
-            Dokumen proyek konstruksi sering kali kompleks, tersebar, dan sulit dinavigasi. Menghabiskan waktu berjam-jam mencari spesifikasi teknis, standar, atau gambar tertentu? Structura hadir untuk mengubah itu.
-            </p>
-            <p>
-            Structura adalah aplikasi revolusioner berbasis Retrieval-Augmented Generation (RAG) yang dirancang khusus untuk para profesional teknik konstruksi, manajer proyek, dan kontraktor. Kami mengubah tumpukan dokumen Anda menjadi sumber pengetahuan yang cerdas dan mudah diakses.
+            Kemampuan Utama:
             <ul>
-                <li>💡 Temukan Jawaban, Bukan Sekadar Kata Kunci.</li>
-                <li>⏱️ Efisiensi Waktu yang Maksimal.</li>
-                <li>🔒 Keandalan dan Akurasi Data Proyek.</li>
+                <li>Tanya Jawab Kontekstual: Ajukan pertanyaan dalam bahasa alami tentang dokumen apa pun yang telah diproses. Dapatkan jawaban akurat yang dirumuskan AI hanya dari konten dokumen tersebut, bukan dari internet.</li>
+                <li>Ekstraksi MDR Otomatis: Unggah dokumen teknis dan biarkan AI (Gemini Pro) secara otomatis mengisi Master Document Register (MDR) Anda. Ekstrak puluhan atribut penting seperti Nomor Dokumen, Revisi, Judul, dan Tanggal secara instan.</li>
+                <li>Manajemen Rekod Cerdas: Setiap dokumen yang diproses disimpan dalam basis data, lengkap dengan metadata, riwayat pemrosesan, dan kata kunci yang disarankan AI untuk kemudahan penelusuran dan tata kelola.</li>
             </ul>
             </p>
             <h3>Siap Mengubah Alur Kerja Dokumen Anda?</h3
             <p>
             Hentikan kebingungan dokumen dan mulailah membangun dengan kepastian informasi. Structura adalah co-pilot cerdas Anda di lokasi proyek dan di kantor..
             </p>
-            <div class="button-container">
     """, unsafe_allow_html=True)
 
-    # --- Button Container ---
-    st.markdown('<div class="button-container">', unsafe_allow_html=True)
-    if st.button("Masuk ke Sistem", key="enter_system_button"):
-        st.session_state.show_dashboard = True
-        st.rerun() # Rerun to switch view
-    st.markdown('</div>', unsafe_allow_html=True) # Close button container
+    # --- Centered Button using st.columns ---
+    # Create three columns; the middle one will hold the button.
+    # The outer columns act as spacers. Adjust the ratio for different widths.
+    col1, col2, col3 = st.columns([2, 1, 2])
+    with col2:
+        if st.button("Masuk ke Sistem", key="enter_system_button", use_container_width=True):
+            st.session_state.show_dashboard = True
+            st.rerun() # Rerun to switch view
 
     st.markdown('</div>', unsafe_allow_html=True) # Close landing-content div
