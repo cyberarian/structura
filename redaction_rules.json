@@ -1,0 +1,53 @@
+{
+  "redaction_rules": [
+    {
+      "name": "Project Codenames",
+      "enabled": true,
+      "pattern": "Project (Phoenix|Hydra|Cerberus)",
+      "type": "regex",
+      "description": "Redacts specific internal project codenames."
+    },
+    {
+      "name": "Email Addresses",
+      "enabled": true,
+      "pattern": "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}",
+      "type": "regex",
+      "description": "Redacts all email addresses found in the text."
+    },
+    {
+      "name": "Specific Names (Example)",
+      "enabled": true,
+      "pattern": "Adnuri Mohamidi",
+      "type": "literal",
+      "description": "Redacts a specific person's name (case-insensitive)."
+    },
+    {
+        "name": "Indonesian NIK (ID Number)",
+        "enabled": true,
+        "pattern": "\\b(1[1-9]|21|[37][1-6]|5[1-4]|6[1-5]|[8-9][1-2])\\d{2}\\d{2}([0-6]\\d|7[0-1])\\d{2}\\d{4}\\b",
+        "type": "regex",
+        "description": "Redacts Indonesian National Identity Numbers (NIK)."
+    },
+    {
+      "name": "Specific Name (Muhron Nafik)",
+      "enabled": true,
+      "pattern": "Muhron Nafik",
+      "type": "literal",
+      "description": "Redacts a specific person's name (case-insensitive)."
+    },
+    {
+      "name": "Specific Name (Giovanni Colavizza)",
+      "enabled": true,
+      "pattern": "Giovanni Colavizza",
+      "type": "literal",
+      "description": "Redacts a name found in the sample document."
+    },
+    {
+      "name": "Indonesian NPWP (Tax ID)",
+      "enabled": true,
+      "pattern": "\\d{2}\\.\\d{3}\\.\\d{3}\\.\\d{1}-\\d{3}\\.\\d{3}",
+      "type": "regex",
+      "description": "Redacts Indonesian Taxpayer Identification Numbers (NPWP)."
+    }
+  ]
+}

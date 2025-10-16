@@ -1,0 +1,389 @@
+{
+    "a098babe-b8dd-46c3-b0fa-b076197ebb20_cs500_co50": {
+        "original_filename": "2105.01117v1-Archives and AI.pdf",
+        "index_path": "a098babe-b8dd-46c3-b0fa-b076197ebb20_cs500_co50.index",
+        "chunks_path": "a098babe-b8dd-46c3-b0fa-b076197ebb20_cs500_co50_chunks.pkl",
+        "tokenized_chunks_path": "a098babe-b8dd-46c3-b0fa-b076197ebb20_cs500_co50_tok_chunks.pkl",
+        "chunk_size": 500,
+        "chunk_overlap": 50,
+        "processed_timestamp": "2025-05-15T13:56:59.224035",
+        "original_metadata": {
+            "Filename": "2105.01117v1-Archives and AI.pdf",
+            "File Type": "application/pdf",
+            "Page Count": 22,
+            "Title": "Archives and AI: A survey",
+            "Author": "",
+            "Subject": "",
+            "Creation Date": "N/A",
+            "Modification Date": "N/A",
+            "File Size (KB)": "363.08"
+        },
+        "rm_suggestions": {
+            "suggested_classification": "Dokumen Teknis",
+            "suggested_keywords": [
+                "Archives",
+                "Artificial Intelligence",
+                "Recordkeeping",
+                "Machine Learning"
+            ],
+            "sensitivity_flags": [
+                {
+                    "type": "PII",
+                    "reason": "Presence of names and email addresses of authors"
+                },
+                {
+                    "type": "Academic",
+                    "reason": "Discussion of academic research and references to specific studies"
+                }
+            ]
+        },
+        "table_files": [
+            "a098babe-b8dd-46c3-b0fa-b076197ebb20_cs500_co50_table_0.json",
+            "a098babe-b8dd-46c3-b0fa-b076197ebb20_cs500_co50_table_1.json",
+            "a098babe-b8dd-46c3-b0fa-b076197ebb20_cs500_co50_table_2.json"
+        ]
+    },
+    "cbc4e61f-d403-4551-a631-d27dee919964_cs500_co50": {
+        "original_filename": "2105.01117v1-Archives and AI.pdf",
+        "index_path": "cbc4e61f-d403-4551-a631-d27dee919964_cs500_co50.index",
+        "chunks_path": "cbc4e61f-d403-4551-a631-d27dee919964_cs500_co50_chunks.pkl",
+        "tokenized_chunks_path": "cbc4e61f-d403-4551-a631-d27dee919964_cs500_co50_tok_chunks.pkl",
+        "chunk_size": 500,
+        "chunk_overlap": 50,
+        "processed_timestamp": "2025-05-15T14:18:33.088760",
+        "original_metadata": {
+            "Filename": "2105.01117v1-Archives and AI.pdf",
+            "File Type": "application/pdf",
+            "Page Count": 22,
+            "Title": "Archives and AI: A survey",
+            "Author": "",
+            "Subject": "",
+            "Creation Date": "N/A",
+            "Modification Date": "N/A",
+            "File Size (KB)": "363.08"
+        },
+        "rm_suggestions": {
+            "suggested_classification": "Dokumen Teknis",
+            "suggested_keywords": [
+                "Archives",
+                "Recordkeeping",
+                "Artificial Intelligence",
+                "Machine Learning",
+                "Digital Transformation"
+            ],
+            "sensitivity_flags": []
+        },
+        "table_files": [
+            "cbc4e61f-d403-4551-a631-d27dee919964_cs500_co50_table_0.json",
+            "cbc4e61f-d403-4551-a631-d27dee919964_cs500_co50_table_1.json",
+            "cbc4e61f-d403-4551-a631-d27dee919964_cs500_co50_table_2.json"
+        ]
+    },
+    "01154658-e7c7-4a35-bed7-5bc18da5b50d_cs500_co50": {
+        "original_filename": "Surat Teguran PT. Petronesia Benimel.pdf",
+        "index_path": "01154658-e7c7-4a35-bed7-5bc18da5b50d_cs500_co50.index",
+        "chunks_path": "01154658-e7c7-4a35-bed7-5bc18da5b50d_cs500_co50_chunks.pkl",
+        "tokenized_chunks_path": "01154658-e7c7-4a35-bed7-5bc18da5b50d_cs500_co50_tok_chunks.pkl",
+        "chunk_size": 500,
+        "chunk_overlap": 50,
+        "processed_timestamp": "2025-10-16T17:36:27.973776",
+        "original_metadata": {
+            "Filename": "Surat Teguran PT. Petronesia Benimel.pdf",
+            "File Type": "application/pdf",
+            "Page Count": 2,
+            "Title": "",
+            "Author": "",
+            "Subject": "",
+            "Creation Date": "2023-10-31 09:50:59",
+            "Modification Date": "2023-10-31 09:50:59",
+            "File Size (KB)": "815.68"
+        },
+        "rm_suggestions": null,
+        "table_files": []
+    },
+    "cc7c1cc8-b032-4a8d-891b-a707c0442ddb_cs500_co50": {
+        "original_filename": "Surat Teguran PT. Petronesia Benimel.pdf",
+        "index_path": "cc7c1cc8-b032-4a8d-891b-a707c0442ddb_cs500_co50.index",
+        "chunks_path": "cc7c1cc8-b032-4a8d-891b-a707c0442ddb_cs500_co50_chunks.pkl",
+        "tokenized_chunks_path": "cc7c1cc8-b032-4a8d-891b-a707c0442ddb_cs500_co50_tok_chunks.pkl",
+        "chunk_size": 500,
+        "chunk_overlap": 50,
+        "processed_timestamp": "2025-10-16T17:44:09.554098",
+        "original_metadata": {
+            "Filename": "Surat Teguran PT. Petronesia Benimel.pdf",
+            "File Type": "application/pdf",
+            "Page Count": 2,
+            "Title": "",
+            "Author": "",
+            "Subject": "",
+            "Creation Date": "2023-10-31 09:50:59",
+            "Modification Date": "2023-10-31 09:50:59",
+            "File Size (KB)": "815.68"
+        },
+        "rm_suggestions": {
+            "suggested_classification": "Korespondensi Internal",
+            "suggested_keywords": [
+                "Surat Teguran",
+                "PT. Petronesia Benimel",
+                "Proyek Bangkinang - Pangalan",
+                "Pekerjaan Tanah",
+                "Evaluasi Proses",
+                "Perbaikan"
+            ],
+            "sensitivity_flags": [
+                {
+                    "type": "Confidential Project",
+                    "reason": "Mengandung informasi tentang proyek spesifik dan detail pelaksanaan pekerjaan"
+                }
+            ]
+        },
+        "table_files": []
+    },
+    "2ed865b2-0401-4b64-83fa-18d1123c386a_cs500_co50": {
+        "original_filename": "Surat Teguran PT. Petronesia Benimel.pdf",
+        "index_path": "2ed865b2-0401-4b64-83fa-18d1123c386a_cs500_co50.index",
+        "chunks_path": "2ed865b2-0401-4b64-83fa-18d1123c386a_cs500_co50_chunks.pkl",
+        "tokenized_chunks_path": "2ed865b2-0401-4b64-83fa-18d1123c386a_cs500_co50_tok_chunks.pkl",
+        "chunk_size": 500,
+        "chunk_overlap": 50,
+        "processed_timestamp": "2025-10-16T20:29:16.112518",
+        "original_metadata": {
+            "Filename": "Surat Teguran PT. Petronesia Benimel.pdf",
+            "File Type": "application/pdf",
+            "Page Count": 2,
+            "Title": "",
+            "Author": "",
+            "Subject": "",
+            "Creation Date": "2023-10-31 09:50:59",
+            "Modification Date": "2023-10-31 09:50:59",
+            "File Size (KB)": "815.68"
+        },
+        "rm_suggestions": {
+            "suggested_classification": "Korespondensi Internal",
+            "suggested_keywords": [
+                "Surat Teguran",
+                "PT. Petronesia Benimel",
+                "Pekerjaan Tanah",
+                "Evaluasi Proses",
+                "Perbaikan"
+            ],
+            "sensitivity_flags": [
+                {
+                    "type": "Confidential Project",
+                    "reason": "Mengandung informasi tentang proyek spesifik dan metode kerja yang digunakan oleh PT. Petronesia Benimel."
+                }
+            ]
+        },
+        "table_files": []
+    },
+    "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50": {
+        "original_filename": "(PRO 400 - SCCM) 18. Surat Perjanjian Pemborongan Pekerjaan Sheetpile.pdf",
+        "index_path": "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50.index",
+        "chunks_path": "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_chunks.pkl",
+        "tokenized_chunks_path": "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_tok_chunks.pkl",
+        "chunk_size": 500,
+        "chunk_overlap": 50,
+        "processed_timestamp": "2025-10-16T21:17:35.636687",
+        "original_metadata": {
+            "Filename": "(PRO 400 - SCCM) 18. Surat Perjanjian Pemborongan Pekerjaan Sheetpile.pdf",
+            "File Type": "application/pdf",
+            "Page Count": 34,
+            "Title": "",
+            "Author": "",
+            "Subject": "",
+            "Creation Date": "N/A",
+            "Modification Date": "2024-02-26 03:14:04",
+            "File Size (KB)": "938.98"
+        },
+        "rm_suggestions": {
+            "suggested_classification": "Kontrak",
+            "suggested_keywords": [
+                "Surat Perjanjian",
+                "Pemborongan",
+                "Pekerjaan Pemancangan Sheetpile",
+                "Proyek Jalan Tol Trans Sumatera",
+                "PT Hutama Karya Infrastruktur",
+                "PT Grant Surya Multi Sarana"
+            ],
+            "sensitivity_flags": [
+                {
+                    "type": "Financial",
+                    "reason": "Dokumen mengandung informasi tentang nilai pekerjaan dan pembayaran"
+                },
+                {
+                    "type": "Confidential Project",
+                    "reason": "Dokumen mengandung informasi tentang proyek spesifik dan pihak-pihak yang terlibat"
+                },
+                {
+                    "type": "Legal",
+                    "reason": "Dokumen merupakan surat perjanjian yang mengikat secara hukum"
+                }
+            ]
+        },
+        "table_files": [
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_0.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_1.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_2.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_3.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_4.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_5.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_6.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_7.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_8.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_9.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_10.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_11.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_12.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_13.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_14.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_15.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_16.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_17.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_18.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_19.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_20.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_21.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_22.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_23.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_24.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_25.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_26.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_27.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_28.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_29.json",
+            "fb700b20-7d17-40db-a110-2ce343994c34_cs500_co50_table_30.json"
+        ]
+    },
+    "46bdc665-0707-4104-b3ab-fe4191815d11_cs500_co50": {
+        "original_filename": "(PRO 500 - Peralatan Proyek) PO geotek Guna Nusa.pdf",
+        "index_path": "46bdc665-0707-4104-b3ab-fe4191815d11_cs500_co50.index",
+        "chunks_path": "46bdc665-0707-4104-b3ab-fe4191815d11_cs500_co50_chunks.pkl",
+        "tokenized_chunks_path": "46bdc665-0707-4104-b3ab-fe4191815d11_cs500_co50_tok_chunks.pkl",
+        "chunk_size": 500,
+        "chunk_overlap": 50,
+        "processed_timestamp": "2025-10-16T22:20:29.859356",
+        "original_metadata": {
+            "Filename": "(PRO 500 - Peralatan Proyek) PO geotek Guna Nusa.pdf",
+            "File Type": "application/pdf",
+            "Page Count": 2,
+            "Title": "",
+            "Author": "",
+            "Subject": "",
+            "Creation Date": "2025-08-02 17:07:21",
+            "Modification Date": "2025-08-02 17:07:21",
+            "File Size (KB)": "688.81"
+        },
+        "rm_suggestions": {
+            "suggested_classification": "Kontrak",
+            "suggested_keywords": [
+                "Pembelian Barang",
+                "Geotextile Non Woven",
+                "Proyek Pembangunan Jalan Tol",
+                "Pesanan Pembelian",
+                "Klausul Pembayaran"
+            ],
+            "sensitivity_flags": [
+                {
+                    "type": "Financial",
+                    "reason": "Dokumen mengandung informasi tentang harga satuan dan total pembayaran yang sensitif."
+                }
+            ]
+        },
+        "table_files": [
+            "46bdc665-0707-4104-b3ab-fe4191815d11_cs500_co50_table_0.json",
+            "46bdc665-0707-4104-b3ab-fe4191815d11_cs500_co50_table_1.json"
+        ]
+    },
+    "3f59c4ce-bcc9-4696-9dca-a621af139793_cs500_co50": {
+        "original_filename": "(PRO 500 - Peralatan Proyek) PO Jaring Pengaman Jembatan Guna Nusa.pdf",
+        "index_path": "3f59c4ce-bcc9-4696-9dca-a621af139793_cs500_co50.index",
+        "chunks_path": "3f59c4ce-bcc9-4696-9dca-a621af139793_cs500_co50_chunks.pkl",
+        "tokenized_chunks_path": "3f59c4ce-bcc9-4696-9dca-a621af139793_cs500_co50_tok_chunks.pkl",
+        "chunk_size": 500,
+        "chunk_overlap": 50,
+        "processed_timestamp": "2025-10-16T22:29:22.866537",
+        "original_metadata": {
+            "Filename": "(PRO 500 - Peralatan Proyek) PO Jaring Pengaman Jembatan Guna Nusa.pdf",
+            "File Type": "application/pdf",
+            "Page Count": 2,
+            "Title": "",
+            "Author": "",
+            "Subject": "",
+            "Creation Date": "N/A",
+            "Modification Date": "2024-03-28 15:16:56",
+            "File Size (KB)": "333.23"
+        },
+        "rm_suggestions": {
+            "suggested_classification": "Kontrak",
+            "suggested_keywords": [
+                "Pembelian Barang",
+                "Proyek Pembangunan Jalan Tol",
+                "PT. HUTAMA KARYA INFRASTRUKTUR",
+                "CV. GUNA NUSA",
+                "Pesanan Pembelian",
+                "Penawaran Harga",
+                "Jaring Pengaman Jembatan"
+            ],
+            "sensitivity_flags": [
+                {
+                    "type": "Financial",
+                    "reason": "Dokumen mengandung informasi tentang harga dan pembayaran, seperti total harga Rp 39.960.000,00 dan rekening bank untuk transfer pembayaran."
+                },
+                {
+                    "type": "Confidential Project",
+                    "reason": "Dokumen terkait dengan proyek pembangunan jalan tol yang mungkin memiliki informasi strategis atau rahasia."
+                }
+            ]
+        },
+        "table_files": [
+            "3f59c4ce-bcc9-4696-9dca-a621af139793_cs500_co50_table_0.json",
+            "3f59c4ce-bcc9-4696-9dca-a621af139793_cs500_co50_table_1.json"
+        ]
+    },
+    "b6414d04-13d9-413f-8a29-616f97ea8175_cs500_co50": {
+        "original_filename": "(PRO 500 - Peralatan Proyek) PO Rubber Speed bump Guna Nusa.pdf",
+        "index_path": "b6414d04-13d9-413f-8a29-616f97ea8175_cs500_co50.index",
+        "chunks_path": "b6414d04-13d9-413f-8a29-616f97ea8175_cs500_co50_chunks.pkl",
+        "tokenized_chunks_path": "b6414d04-13d9-413f-8a29-616f97ea8175_cs500_co50_tok_chunks.pkl",
+        "chunk_size": 500,
+        "chunk_overlap": 50,
+        "processed_timestamp": "2025-10-16T22:31:17.275788",
+        "original_metadata": {
+            "Filename": "(PRO 500 - Peralatan Proyek) PO Rubber Speed bump Guna Nusa.pdf",
+            "File Type": "application/pdf",
+            "Page Count": 2,
+            "Title": "",
+            "Author": "",
+            "Subject": "",
+            "Creation Date": "N/A",
+            "Modification Date": "2024-03-28 13:29:43",
+            "File Size (KB)": "329.70"
+        },
+        "rm_suggestions": {
+            "suggested_classification": "Kontrak",
+            "suggested_keywords": [
+                "Pembelian Barang",
+                "Rubber Speed Bump",
+                "Proyek Pembangunan Jalan Tol",
+                "PT. HUTAMA KARYA INFRASTRUKTUR",
+                "CV. GUNA NUSA",
+                "Pesanan Pembelian Barang",
+                "Surat Penawaran"
+            ],
+            "sensitivity_flags": [
+                {
+                    "type": "Financial",
+                    "reason": "Dokumen mengandung informasi tentang harga dan pembayaran"
+                },
+                {
+                    "type": "Confidential Project",
+                    "reason": "Dokumen mengandung informasi tentang proyek pembangunan jalan tol yang mungkin bersifat rahasia"
+                }
+            ]
+        },
+        "table_files": [
+            "b6414d04-13d9-413f-8a29-616f97ea8175_cs500_co50_table_0.json",
+            "b6414d04-13d9-413f-8a29-616f97ea8175_cs500_co50_table_1.json"
+        ]
+    }
+}
